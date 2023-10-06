@@ -24,3 +24,6 @@ target_link_libraries(main pico_stdlib)
 
 # create extra output files(map/bin/hex).
 pico_add_extra_outputs(main)
+
+# add usb serial as standard output
+pico_enable_stdio_usb(main 1)

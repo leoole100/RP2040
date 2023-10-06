@@ -51,6 +51,10 @@ make -j 4       # build project
 
 Too flash copy `main.uf2` to RP2040 and reboot
 
+## Tools
+- Serial Monitor: `minicom -D /dev/ttyACM0`   
+  Don't forget to enable in CMakeList
+
 
 # Useful Links:
 - [RP 2040 Documentation](https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html#documentation)
